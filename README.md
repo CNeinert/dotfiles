@@ -1,5 +1,5 @@
 # dotfiles
-My personal dotfiles of my i3 test system
+My personal dotfiles of my i3 system which is still WIP!
 
 # Arch Install
 use
