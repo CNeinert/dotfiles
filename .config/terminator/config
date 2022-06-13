@@ -1,0 +1,26 @@
+[global_config]
+  #enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  title_transmit_bg_color = "#ff48e1"
+  title_transmit_fg_color = "#000000"
+  focus = system
+[keybindings]
+  full_screen = <Ctrl><Shift>F11
+[profiles]
+  [[default]]
+    use_system_font = False
+    font = Monospace Regular
+    background_darkness = 0.48
+    scrollback_lines = 10000
+    foreground_color = "#ffffff"    
+    background_color = "#4b371c"
+[layouts] 
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+      size = 1000, 600
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]
